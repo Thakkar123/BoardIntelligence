@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6726977900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify that user can see the logo present on home page",
+        "description": "",
+        "id": "board-intelligence:-home-page-test-cases;verify-that-user-can-see-the-logo-present-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 810714000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1189285100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the home page and I accept the alert",
+            "match": {
+              "location": "HomepageStepdefs.iAmOnHomePageAndIAcceptTheAlert()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42608400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to see the Board Intelligence logo",
+            "match": {
+              "location": "HomepageStepdefs.iShouldBeAbleToSeeTheBoardIntelligenceLogo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4543996600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify that page title is correct",
+        "description": "",
+        "id": "board-intelligence:-home-page-test-cases;verify-that-page-title-is-correct",
+        "after": [
+          {
+            "result": {
+              "duration": 886565300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1078747800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I launch the home page and I accept the alert",
+            "match": {
+              "location": "HomepageStepdefs.iAmOnHomePageAndIAcceptTheAlert()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14544000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the page title displayed",
+            "match": {
+              "location": "HomepageStepdefs.iVerifyThePageTitleDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3448292400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify that homepage message text is correct",
+        "description": "",
+        "id": "board-intelligence:-home-page-test-cases;verify-that-homepage-message-text-is-correct",
+        "after": [
+          {
+            "result": {
+              "duration": 847466500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1070788400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I launch the home page and I accept the alert",
+            "match": {
+              "location": "HomepageStepdefs.iAmOnHomePageAndIAcceptTheAlert()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43188300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify the homepage message text is correct",
+            "match": {
+              "location": "HomepageStepdefs.iVerifyTheHomepageMessageTextIsCorrect()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3178294400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Count the number of links present on Home page and also print all the links",
+        "description": "",
+        "id": "board-intelligence:-home-page-test-cases;count-the-number-of-links-present-on-home-page-and-also-print-all-the-links",
+        "after": [
+          {
+            "result": {
+              "duration": 810088500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1078343800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I launch the home page and I accept the alert",
+            "match": {
+              "location": "HomepageStepdefs.iAmOnHomePageAndIAcceptTheAlert()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31542000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should be able to count number of links present",
+            "match": {
+              "location": "HomepageStepdefs.iShouldBeAbleToCountNumberOfLinksPresent()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2297191600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to print out all the links",
+            "match": {
+              "location": "HomepageStepdefs.iShouldBeAbleToPrintOutAllTheLinks()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Board Intelligence: Home page Test Cases",
+    "description": "As user I want to check the Board Intelligence web page",
+    "id": "board-intelligence:-home-page-test-cases",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
